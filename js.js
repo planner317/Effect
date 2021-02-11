@@ -5,7 +5,6 @@ let w = cnv.width = window.innerWidth/3;
 let h = cnv.height = window.innerHeight/3;
 let img = ctx.createImageData(w, h);
 let data = img.data;
-let frame = 0;
 
 let amp = [];
 let vel = [];
